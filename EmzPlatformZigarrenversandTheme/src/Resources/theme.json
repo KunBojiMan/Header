@@ -1,0 +1,140 @@
+{
+    "name": "EmzPlatformZigarrenversandTheme",
+    "author": "8mylez GmbH",
+    "views": [
+        "@Storefront",
+        "@Plugins",
+        "@EmzPlatformZigarrenversandTheme"
+    ],
+    "style": [
+        "app/storefront/src/scss/overrides.scss",
+        "@Storefront",
+        "app/storefront/src/scss/base.scss"
+    ],
+    "script": [
+        "@Storefront",
+        "app/storefront/dist/storefront/js/emz-platform-zigarrenversand-theme.js"
+    ],
+    "asset": [
+        "@Storefront",
+        "app/storefront/src/assets"
+    ],
+    "iconSets": {
+        "EmzIcons" : "app/storefront/src/assets/icons/EmzIcons"    
+    },
+    "config": {
+        "blocks": {
+          "TopBarBlock": {
+            "label": {
+              "en-GB": "Top-bar",
+              "de-DE": "Top-bar"
+            }
+          },
+          "FooterBlock": {
+            "label": {
+              "en-GB": "Top-bar",
+              "de-DE": "Top-bar"
+            }
+          }
+        },
+        "avatar": {
+            "avatar-icon-one": {
+            "label": {
+                "en-GB": "first Icon",
+                "de-DE": "erstes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "heart-icon-two": {
+              "label": {
+                "en-GB": "second Icon",
+                "de-DE": "zweites Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "header-cart-icon": {
+              "label": {
+                "en-GB": "third Icon",
+                "de-DE": "drittes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "home-icon": {
+              "label": {
+                "en-GB": "fourth Icon",
+                "de-DE": "viertes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "search-icon": {
+              "label": {
+                "en-GB": "fifth Icon",
+                "de-DE": "fünftes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "questionmark-icon": {
+              "label": {
+                "en-GB": "sixth Icon",
+                "de-DE": "sechstes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "truck-icon": {
+              "label": {
+                "en-GB": "seventh Icon",
+                "de-DE": "siebtes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            },
+            "hotline-icon": {
+              "label": {
+                "en-GB": "seventh Icon",
+                "de-DE": "siebtes Icon"
+            },
+              "type": "media",
+              "value": "",
+              "scss": false,
+              "editable": true,
+              "block": "TopBarBlock",
+              "section": "TopBarIcons"
+            }     
+        }    
+    }
+}
+          

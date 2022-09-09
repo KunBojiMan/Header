@@ -1,0 +1,126 @@
+.header-main {
+    top: 0;
+    z-index: 2;
+            .row {
+        &.align-items-center {
+            &.header-row {
+                max-width: 100%;
+                padding: 0;
+                margin: 0;
+
+                @include media-breakpoint-up(xl){
+                    min-height: 5rem;
+                }
+            }
+        }
+    }
+}
+.nav-main {
+    .nav-main {
+        position: webkit-sticky;
+    }
+}
+.nav.main-navigation-menu {
+    font-size: 0.90rem;
+    color: #35383f;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0px 15px 6px -18px #f6a14d;
+
+}
+.nav.main-navigation-menu {
+    position: sticky;
+}
+.img-fluid.header-logo-main-img {
+    top: 54px;
+    left: 278px;
+    width: 217px;
+    height: 40px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.top-bar-nav {
+    background-color:#625444;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+    width: 3000px;
+    height: 35px;
+    opacity: 1;
+    position: fixed; 
+}	
+.icon > svg path, .icon > svg use {
+    fill: #35383F;
+}
+    .icon.icon.icon-EmzIcons.icon-EmzIcons-avatar {
+    top: 62px;
+    left: 1563px;
+    width: 23px;
+    height: 25px;
+    }
+    .icon.icon-EmzIcons.icon-EmzIcons-bag {
+    top: 62px;
+    left: 1612px;
+    width: 30px;
+    height: 24px;
+    }
+    .truck-icon {
+    top: 9px;
+    left: 278px;
+    width: 25px;
+    height: 18px;
+    }
+    .questionmark-icon {
+    top: 8px;
+    left: 1550px;
+    width: 19px;
+    height: 19px;
+    }
+    .header-search-form {
+    width: 450px;
+    height: 43px;
+    }
+    .input-group {
+    width: 450px;
+    height: 43px;
+    }
+    .form-control.header-search-input {
+    height: 43px;
+    }
+    .icon.icon-EmzIcons.icon-EmzIcons-heart {
+    top: 62px;
+    left: 1511px;
+    width: 26px;
+    height: 24px;
+    }
+.icon.icon-EmzIcons.icon-EmzIcons-search {
+    top: 60px;
+    left: 1149px;
+    width: 26px;
+    height: 25px;
+    opacity: 1;
+    }
+
+    .icon.icon-EmzIcons.icon-EmzIcons-truck {
+        top: 9px;
+        left: 278px;
+        width: 25px;
+        height: 18px;
+    }
+#trucker.icon.top-bar {
+    top: 9px;
+    left: 278px;
+    width: 25px;
+    height: 18px;
+}
+.main-navigation-link.active .main-navigation-link-text {
+    border-color: white;
+}
+.icon.icon-EmzIcons.icon-EmzIcons-home {
+    top: 115px;
+    left: 278px;
+    width: 19px;
+    height: 19px;
+}

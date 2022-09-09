@@ -1,0 +1,32 @@
+{% sw_extends '@Storefront/storefront/layout/header/top-bar.html.twig' %}
+
+{% block layout_header_top_bar_language %}{% endblock %}
+{% block layout_header_top_bar_currency %}{% endblock %}
+
+{% block layout_header_top_bar %}
+    <div class="top-bar">
+        <nav class="top-bar-nav">
+                {% if ('truck-icon') %}
+                {% sw_icon 'truck' style { 'pack': 'EmzIcons'} %}
+                {% endif %}
+                {% if ('questionmark-icon') %}
+                {% sw_icon 'questionmark' style { 'pack': 'EmzIcons'} %}
+                {% endif %}
+                {% if ('hotline-icom') %}
+                {% sw_icon 'hotline' style { 'pack': 'EmzIcons'} %}
+                {% endif %}
+                {% if theme_config('telephone-icon-two') %}
+                    <div class="emz-snippet-telephone d-flex">
+                        <img src="{{ theme_config('telephone-icon-two') }}" alt="">
+                        <div class="emz-snippet-telephone-big emz-text-c">{{ "hut-theme.header.telephone"|trans }}</div><div class="emz-snippet-telephone-small">{{ "hut-theme.header.openingHours"|trans }}</div>
+                    </div>
+                {% endif %}
+                
+                </nav>  
+                   {% block layout_header_top_bar_service %}{% endblock %}
+            </div>         
+{% endblock %}
+             
+
+
+
